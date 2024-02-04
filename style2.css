@@ -1,0 +1,32 @@
+.info1{
+    display: flex;
+    gap: 300px;
+    margin-top: 20px;
+}
+*{
+    background-color: black;
+}
+.box{
+    border: 5px white solid;
+    width: 100vw;
+    height: 400px;
+    background-color:#575A85;
+    margin-top: 50px;
+
+
+}
+.txt2{
+    text-align: center;
+    color: #B8BCCC;
+    background-color: #575A85;
+}
+.map1{
+
+    width: 100vw;
+    height: 350px;
+    background-color: white;
+
+}
+#input1{
+    width: 500px;
+}

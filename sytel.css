@@ -1,0 +1,22 @@
+.openpage{
+    text-align: center;
+
+    justify-content: center;
+    margin-top: 25%;
+    color: #B8BCCC;
+}
+.bt1{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    padding-inline: 50px;
+    padding-block: 5px; background-color: #575A85;
+    border-radius: 5px;
+    border-color: #B8BCCC;
+border-width: 2px;
+color: #B8BCCC;
+}
+
+body{
+    background-color: #575A85;
+}

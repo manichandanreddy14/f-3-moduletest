@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style2.css">
+</head>
+<body>
+    <div class="total">
+        <div id="ip">
+            <span class="txt1" style="color: white;">IP Address:</span>
+            <span class="ipadress"></span>
+        </div>
+        <div class="info1">
+            <span>
+
+            <div class="lat1">
+                <span style="color: white;">lat:</span><span class="lat"></span>
+            </div>
+            <div class="long">
+                <span style="color: white;">long:</span><span class="long"></span>
+            </div>
+        </span>
+      
+      <span>
+        <div class="city1">
+            <span style="color: white;">City:</span><span class="city"></span>
+        </div>
+        <div class="Region1">
+            <span style="color: white;">Region:</span><span class="region"></span>
+        </div>
+      </span><span>
+        <div class="Orgainsation1">
+            <span style="color: white;">Orgainsation:</span><span class="Orgainsation"></span>
+        </div>
+        <div class="Hostname1">
+            <span style="color: white;">Hostname:</span><span class="Hostname"></span>
+        </div>
+      </span>
+        </div>
+        <div class="box">
+            <div class="txt2">Your Current Location</div>
+            <div class="map1">
+                <iframe class="map1" id="map1"
+                src="https://www.google.com/maps?q=35.856737,10.606619&output=embed" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div>
+
+
+        </div>
+    </div>            
+<div style="text-align: center; color: white;font-size: medium;">More Information About You</div>
+    <div>
+        <span style="color: white;">Time Zone:</span><span style="color: white;"id="timezone"></span>
+    </div>
+    <div>
+        <span style="color: white;">Date And Time:</span><span id="dat" style="color: white;"></span>
+    </div>
+    <div>
+        <span style="color: white;">Pincode:</span><span style="color: white;" id="pin"></span>
+    </div>
+    <div>
+        <span style="color: white;">Message: Number of pincode(s) found:</span><span style="color: white;" class="mes"></span>
+    </div>
+</div>            
+<input type="text" id="searchBox" placeholder="Search post offices" id="input1">
+<ul id="postOfficeList"></ul>
+<script src="./index.js"></script>
+</body>
+</html>
